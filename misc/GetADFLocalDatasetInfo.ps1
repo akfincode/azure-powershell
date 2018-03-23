@@ -1,10 +1,7 @@
-# ./GetADFMetaInfo
+# ./GetADFLocalDatasetInfo
 # Parameters - fill these in before running the script!
 # =====================================================
 
-$rg = "<resourceGroupName>" #Resource Group Name
-$df = "<datafactoryName>" #Data Factory Name
-$pl = "<pipelineName>" #PipeLine Name
 $sb = "<subscriptionId>" #subscription
 $cred_file = "/<folder>/azure_cred.json"
 $ds_folder = "/<folder>/Datasets/" #Dataset root folder
@@ -12,7 +9,6 @@ $ds_folder = "/<folder>/Datasets/" #Dataset root folder
 # Edit filter condition
 # Follow Dataset file naming convention to extra useful meta data by applying 
 # filters for ex. *_sqldb_* to extract SQLDB table names
-
 $filter_cond = "<filter_pattern>" 
 
 #Auto Login
