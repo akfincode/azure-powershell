@@ -16,7 +16,6 @@ Select-AzureRmProfile -Path $cred_file
 
 Set-AzureRMContext -SubscriptionId $sb
 
-foreach ($file in Get-ChildItem $ds_folder -Recurse -Filter $filter_cond)
-{
+foreach ($file in Get-ChildItem $ds_folder -Recurse -Filter $filter_cond) {
 	Write-Output $file.BaseName
 }
