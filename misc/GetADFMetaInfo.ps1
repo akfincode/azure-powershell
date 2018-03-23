@@ -1,4 +1,4 @@
-# ./ListADFMetaInfo
+# ./GetADFMetaInfo
 # Parameters - fill these in before running the script!
 # =====================================================
 
